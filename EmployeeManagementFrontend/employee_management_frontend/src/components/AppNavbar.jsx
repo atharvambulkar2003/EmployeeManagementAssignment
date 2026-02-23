@@ -37,7 +37,7 @@ const AppNavbar = () => {
           <div className="d-flex align-items-center">
             {user ? (
               <div className="d-flex align-items-center gap-3">
-                <span className="mb-0">Welcome, <strong>{user.name}</strong></span>
+                <span className="mb-0">Welcome, <strong>{user.name}, {user.role}</strong></span>
                 <button 
                   className="btn btn-outline-danger" 
                   type="button" 
